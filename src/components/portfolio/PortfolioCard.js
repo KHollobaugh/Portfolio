@@ -13,8 +13,10 @@ const PortfolioCard = (props) => {
           <CardTitle>{props.project.title}</CardTitle>
           <CardSubtitle>{props.project.technologies}</CardSubtitle>
           <CardText>{props.project.description}</CardText>
-          <Button>View Rendering</Button>
-          <Button>View Code</Button>
+          <div className='card-buttons'>
+          <Button className='button'>View Rendering</Button>
+          <Button className='button'>View Code</Button>
+          </div>
         </CardBody>
       </Card>
       </div>

@@ -28,3 +28,12 @@
     color: gray;
     margin-top: -6px;
 }
+
+.card-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin: 10px 0px;
+}

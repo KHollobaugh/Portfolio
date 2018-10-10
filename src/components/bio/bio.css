@@ -1,0 +1,16 @@
+.my-bio {
+    display: flex;
+    width: 100;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+}
+
+.my-pic {
+    height: 300px;
+    width: auto;
+}
+
+.tab-navigator {
+    width: 500px;
+    height: auto;
+}

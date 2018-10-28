@@ -36,4 +36,10 @@
 
 .button {
     margin: 10px 0px;
+    color: white;
+}
+
+.button:hover {
+    color: white;
+    text-decoration: none;
 }

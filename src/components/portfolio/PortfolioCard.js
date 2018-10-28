@@ -14,8 +14,21 @@ const PortfolioCard = (props) => {
           <CardSubtitle>{props.project.technologies}</CardSubtitle>
           <CardText>{props.project.description}</CardText>
           <div className='card-buttons'>
-          <Button className='button'>View Rendering</Button>
-          <Button className='button'>View Code</Button>
+
+          <Button className="button">
+          <a href={props.project.rendering}
+          className='button'
+          target="_blank"
+          rel="noopener noreferrer">
+          View Rendering</a></Button>
+
+          <Button className="button">
+          <a href={props.project.code}
+          className='button'
+          target="_blank"
+          rel="noopener noreferrer">
+          View Code</a></Button>
+
           </div>
         </CardBody>
       </Card>

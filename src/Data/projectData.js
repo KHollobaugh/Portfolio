@@ -1,11 +1,13 @@
 
 
 const projectData = [{
-    title: "Instagram Clone",
-    date: "",
-    description: "Functional clone of desktop Instagram",
+    title: "Elif Turk Photography",
+    date: "10.24.2018",
+    description: "Photography website for independent client",
     technologies: "ReactJS",
-    snapshot: 'img/InstaClone.png'
+    snapshot: 'https://media.giphy.com/media/80jPcMnuDA05OgWp7U/giphy.gif',
+    rendering: 'https://elifturkphotography.netlify.com/',
+    code: 'https://github.com/KHollobaugh/photography-website'
 }]
 
 export default projectData;

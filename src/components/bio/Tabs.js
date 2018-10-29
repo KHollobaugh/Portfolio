@@ -29,7 +29,7 @@ export default class Tabs extends React.Component {
               className={classnames({ active: this.state.activeTab === '1' })}
               onClick={() => { this.toggle('1'); }}
             >
-              About Me
+              <h3>About Me</h3>
             </NavLink>
           </NavItem>
           <NavItem>
@@ -37,7 +37,7 @@ export default class Tabs extends React.Component {
               className={classnames({ active: this.state.activeTab === '2' })}
               onClick={() => { this.toggle('2'); }}
             >
-              Technologies
+              <h3>Technologies</h3>
             </NavLink>
           </NavItem>
           <NavItem>
@@ -45,7 +45,7 @@ export default class Tabs extends React.Component {
               className={classnames({ active: this.state.activeTab === '3' })}
               onClick={() => { this.toggle('3'); }}
             >
-              Education
+              <h3>Education</h3>
             </NavLink>
           </NavItem>
         </Nav>

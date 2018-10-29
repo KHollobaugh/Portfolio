@@ -69,6 +69,23 @@ body h4 {
   color: white;
   text-decoration: none;
 }
+form {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+form html,
+form body {
+  font-size: 1.6rem;
+}
+form input::placeholder {
+  font-size: 1.4rem;
+}
+.input {
+  font-size: 1.5rem;
+}
+.submit-button {
+  font-size: 1.6rem;
+}
 .my-bio {
   display: flex;
   width: 100;

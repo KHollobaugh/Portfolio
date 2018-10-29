@@ -8,8 +8,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-import './navigation.css';
-import ContactModal from './ContactModal';
+import ContactModal from '../contact/ContactModal';
 
 export default class Navigation extends React.Component {
   constructor(props) {

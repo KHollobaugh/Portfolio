@@ -1,7 +1,6 @@
 import React from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Card, CardTitle, CardText, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
-import './bio.css';
 
 export default class Tabs extends React.Component {
   constructor(props) {

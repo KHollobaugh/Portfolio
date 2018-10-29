@@ -1,6 +1,5 @@
 import React from 'react';
 import PortfolioCard from './PortfolioCard';
-import './portfolio.css';
 
 const Portfolio = props => {
     return (

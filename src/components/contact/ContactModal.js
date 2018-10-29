@@ -1,6 +1,5 @@
 import React from 'react';
 import Contact from './Contact';
-import './navigation.css';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 class ContactModal extends React.Component {

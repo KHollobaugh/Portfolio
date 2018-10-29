@@ -3,7 +3,7 @@ import Navigation from './components/navigation/Navigation';
 import Bio from './components/bio/Bio';
 import Portfolio from './components/portfolio/Portfolio';
 import projectData from './Data/projectData';
-import './App.css';
+import './css/index.css';
 
 class App extends Component {
   constructor() {

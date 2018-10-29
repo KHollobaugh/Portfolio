@@ -1,18 +1,16 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
-import './portfolio.css'
 
 const PortfolioCard = (props) => {
   return (
-    <div>
-        <div className='portfolio-piece'>
+    <div className="portfolio-piece">
       <Card>
         <CardImg top width="100%" src={props.project.snapshot} alt="Card image cap" />
         <CardBody>
-          <CardTitle>{props.project.title}</CardTitle>
-          <CardSubtitle>{props.project.technologies}</CardSubtitle>
-          <CardText>{props.project.description}</CardText>
+          <CardTitle><h3>{props.project.title}</h3></CardTitle>
+          <CardSubtitle><h4>{props.project.technologies}</h4></CardSubtitle>
+          <CardText><p>{props.project.description}</p></CardText>
           <div className='card-buttons'>
 
           <Button className="button">
@@ -33,7 +31,6 @@ const PortfolioCard = (props) => {
         </CardBody>
       </Card>
       </div>
-    </div>
   );
 };
 

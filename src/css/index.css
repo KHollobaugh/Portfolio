@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 62.5%;
+}
+html p,
+body p {
+  font-size: 1.6rem;
+}
+html h1,
+body h1 {
+  font-size: 3rem;
+}
+html h2,
+body h2 {
+  font-size: 2.8rem;
+}
+html h3,
+body h3 {
+  font-size: 2.6rem;
+}
+html h4,
+body h4 {
+  font-size: 2.4rem;
+}
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  margin-top: 0px;
+  background-color: rgba(248, 249, 250, 0.8);
+}
+.portfolio {
+  color: gray;
+  padding: 40px 0px;
+  width: 100%;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+.card-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.portfolio-piece {
+  margin: 50px 0px;
+  width: 30%;
+  height: auto;
+}
+.modal-title {
+  display: inline-block;
+  color: gray;
+  margin-top: -6px;
+}
+.card-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.card-buttons .button {
+  margin: 10px 0px;
+  color: white;
+  font-size: 1.6rem;
+}
+.card-buttons .button .button:hover {
+  color: white;
+  text-decoration: none;
+}
+.my-bio {
+  display: flex;
+  width: 100;
+  justify-content: space-evenly;
+  padding: 100px 0px;
+}
+.my-pic {
+  height: 300px;
+  width: auto;
+}
+.tab-navigator {
+  width: 500px;
+  height: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

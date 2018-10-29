@@ -8,7 +8,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-import ContactModal from '../contact/ContactModal';
+import {Link} from 'react-router-dom';
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -39,7 +39,7 @@ export default class Navigation extends React.Component {
                 <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink><ContactModal>Contact</ContactModal></NavLink>
+                <Link to='/contact'>Contact</Link>
               </NavItem>
             </Nav>
           </Collapse>

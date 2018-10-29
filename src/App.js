@@ -1,37 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navigation from './components/navigation/Navigation';
-import Bio from './components/bio/Bio';
-import Portfolio from './components/portfolio/Portfolio';
-import projectData from './Data/projectData';
+import {Route} from 'react-router-dom';
+import Home from './Home';
 import './css/index.css';
+import ContactModal from '../src/components/contact/ContactModal';
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state={
-      projects: [],
-    }
-  }
+const App = () => {
 
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({
-        projects: projectData,
-      });
-    }, 0);
-  }
-
-  render() {
     return (
       <div className="App">
       <Navigation />
-        <header className="App-header">
-      <Bio />
-        </header>
-      <Portfolio projects={this.state.projects}/>
+      <Route exact path='/' component={Home}/>
+      <Route path='/contact' component={ContactModal}/>
       </div>
     );
-  }
 }
 
 export default App;
